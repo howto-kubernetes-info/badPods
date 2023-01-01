@@ -21,7 +21,7 @@ metadata:
     type: statefulset
 spec:
   serviceName: "pentest"
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: pentest

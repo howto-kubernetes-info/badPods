@@ -6,7 +6,7 @@ metadata:
     app: pentest
     type: replicationcontroller
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     app: pentest
     type: replicationcontroller
